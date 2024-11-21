@@ -1,0 +1,69 @@
+Preprocessing data
+Fitting BoW
+Preprocessing complete
+Training model
+epoch: 1 / 4, train_loss = 1.6683, train_accuracy = 38.3727%, validation_loss = 1.8614, validation_accuracy = 45.5357%
+epoch: 2 / 4, train_loss = 1.5937, train_accuracy = 48.6287%, validation_loss = 1.6836, validation_accuracy = 48.8881%
+epoch: 3 / 4, train_loss = 1.1250, train_accuracy = 51.4328%, validation_loss = 1.6636, validation_accuracy = 50.0677%
+epoch: 4 / 4, train_loss = 1.9634, train_accuracy = 53.0003%, validation_loss = 1.6752, validation_accuracy = 50.4573%
+{'model_accuracy': 50.45727117623444, 'model_f1_score_macro': 0.35818494663985445, 'model_ce_loss': 1.5359597064079122, 'model_recall_score_macro': 0.3804221039609796, 'model_precision_score_macro': 0.38697789445899705}
+best model
+...
+Training the model: Model training 1
+epoch: 1 / 4, train_loss = 1.4905, train_accuracy = 38.0136%, validation_loss = 1.8576, validation_accuracy = 45.5542%
+epoch: 2 / 4, train_loss = 1.3669, train_accuracy = 48.3993%, validation_loss = 1.7000, validation_accuracy = 48.8430%
+epoch: 3 / 4, train_loss = 1.3198, train_accuracy = 51.3331%, validation_loss = 1.6901, validation_accuracy = 50.1196%
+epoch: 4 / 4, train_loss = 1.0806, train_accuracy = 52.9422%, validation_loss = 1.7059, validation_accuracy = 50.3828%
+Run 1 done
+...
+Training the model: Model training 2
+epoch: 1 / 4, train_loss = 1.6811, train_accuracy = 38.0020%, validation_loss = 1.8620, validation_accuracy = 45.2151%
+epoch: 2 / 4, train_loss = 0.9341, train_accuracy = 48.6037%, validation_loss = 1.6806, validation_accuracy = 49.0291%
+epoch: 3 / 4, train_loss = 1.8399, train_accuracy = 51.4844%, validation_loss = 1.6876, validation_accuracy = 49.9520%
+epoch: 4 / 4, train_loss = 1.5847, train_accuracy = 53.0037%, validation_loss = 1.6693, validation_accuracy = 50.3855%
+Run 2 done
+...
+Training the model: Model training 3
+epoch: 1 / 4, train_loss = 1.4237, train_accuracy = 38.1732%, validation_loss = 1.8660, validation_accuracy = 45.1647%
+epoch: 2 / 4, train_loss = 1.8171, train_accuracy = 48.7699%, validation_loss = 1.7035, validation_accuracy = 48.8430%
+epoch: 3 / 4, train_loss = 1.7213, train_accuracy = 51.4860%, validation_loss = 1.6940, validation_accuracy = 50.0836%
+epoch: 4 / 4, train_loss = 1.8755, train_accuracy = 52.8225%, validation_loss = 1.7067, validation_accuracy = 50.4093%
+Run 3 done
+Evaluation on our best model over 3 runs:
+==================================================================
+Validation accuracy: [50.38, 50.39, 50.41]
+Accuracy mean: 50.393%, with sd: 0.012
+------------------------------------------------------------------
+Validation recall: [0.38, 0.38, 0.37]
+Recall mean: 0.377, with sd: 0.005
+------------------------------------------------------------------
+Validation Precision: [0.38, 0.39, 0.39]
+Precision mean: 0.387, with sd: 0.005
+------------------------------------------------------------------
+Validation F1: [0.35, 0.36, 0.36]
+F1-macro mean: 0.357, with sd: 0.005
+Training and evaluating CAT-1000-features with 1 hidden layers:
+epoch: 1 / 4, train_loss = 1.5988, train_accuracy = 37.9455%, validation_loss = 1.8654, validation_accuracy = 45.4731%
+epoch: 2 / 4, train_loss = 1.3485, train_accuracy = 48.7882%, validation_loss = 1.7282, validation_accuracy = 48.9294%
+epoch: 3 / 4, train_loss = 1.4051, train_accuracy = 51.3996%, validation_loss = 1.7098, validation_accuracy = 49.8442%
+epoch: 4 / 4, train_loss = 1.5687, train_accuracy = 53.1316%, validation_loss = 1.7042, validation_accuracy = 50.3323%
+Training and evaluating CAT-1000-features with 2 hidden layers:
+epoch: 1 / 4, train_loss = 1.5317, train_accuracy = 38.2879%, validation_loss = 1.8121, validation_accuracy = 45.1101%
+epoch: 2 / 4, train_loss = 1.2598, train_accuracy = 47.8657%, validation_loss = 1.7383, validation_accuracy = 49.0624%
+epoch: 3 / 4, train_loss = 1.4032, train_accuracy = 50.9092%, validation_loss = 1.6930, validation_accuracy = 50.3176%
+epoch: 4 / 4, train_loss = 1.8115, train_accuracy = 52.7327%, validation_loss = 1.7284, validation_accuracy = 50.9332%
+Training and evaluating CAT-1000-features with 4 hidden layers:
+epoch: 1 / 4, train_loss = 1.8514, train_accuracy = 33.4059%, validation_loss = 2.0552, validation_accuracy = 40.0514%
+epoch: 2 / 4, train_loss = 1.4779, train_accuracy = 42.7576%, validation_loss = 1.7923, validation_accuracy = 44.4971%
+epoch: 3 / 4, train_loss = 2.3694, train_accuracy = 46.1519%, validation_loss = 1.6948, validation_accuracy = 46.5809%
+epoch: 4 / 4, train_loss = 1.2059, train_accuracy = 48.6237%, validation_loss = 1.6693, validation_accuracy = 49.0131%
+Training and evaluating CAT-1000-features with 8 hidden layers:
+epoch: 1 / 4, train_loss = 1.7113, train_accuracy = 30.7064%, validation_loss = 2.1712, validation_accuracy = 37.3331%
+epoch: 2 / 4, train_loss = 1.4000, train_accuracy = 38.8198%, validation_loss = 2.0344, validation_accuracy = 40.8532%
+epoch: 3 / 4, train_loss = 2.0282, train_accuracy = 41.7553%, validation_loss = 2.0202, validation_accuracy = 42.6512%
+epoch: 4 / 4, train_loss = 1.4636, train_accuracy = 44.3684%, validation_loss = 1.9320, validation_accuracy = 44.9730%
+Training and evaluating CAT-1000-features with 16 hidden layers:
+epoch: 1 / 4, train_loss = 2.6921, train_accuracy = 28.6935%, validation_loss = 2.2424, validation_accuracy = 33.8943%
+epoch: 2 / 4, train_loss = 2.0701, train_accuracy = 33.3594%, validation_loss = 2.1538, validation_accuracy = 35.0792%
+epoch: 3 / 4, train_loss = 1.8976, train_accuracy = 35.2443%, validation_loss = 2.1878, validation_accuracy = 35.7213%
+epoch: 4 / 4, train_loss = 1.9287, train_accuracy = 36.1253%, validation_loss = 2.1839, validation_accuracy = 35.2268%

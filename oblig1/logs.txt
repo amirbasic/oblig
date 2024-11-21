@@ -1,0 +1,69 @@
+Preprocessing data
+Fitting BoW
+Preprocessing complete
+Training model
+epoch: 1 / 4, train_loss = 1.2459, train_accuracy = 42.9671%, validation_loss = 1.6340, validation_accuracy = 52.8312%
+epoch: 2 / 4, train_loss = 0.8721, train_accuracy = 59.7656%, validation_loss = 1.5454, validation_accuracy = 56.4189%
+epoch: 3 / 4, train_loss = 1.3789, train_accuracy = 66.9764%, validation_loss = 1.5549, validation_accuracy = 56.9494%
+epoch: 4 / 4, train_loss = 0.8894, train_accuracy = 72.0329%, validation_loss = 1.6825, validation_accuracy = 57.0278%
+{'model_accuracy': 57.02780008028905, 'model_f1_score_macro': 0.4346455656707279, 'model_ce_loss': 1.3324610933344414, 'model_recall_score_macro': 0.4571714363503379, 'model_precision_score_macro': 0.46071685112736116}
+best model
+...
+Training the model: Model training 1
+epoch: 1 / 4, train_loss = 1.4158, train_accuracy = 43.2796%, validation_loss = 1.6270, validation_accuracy = 53.2155%
+epoch: 2 / 4, train_loss = 1.4220, train_accuracy = 59.5096%, validation_loss = 1.5815, validation_accuracy = 56.5865%
+epoch: 3 / 4, train_loss = 0.7542, train_accuracy = 66.7653%, validation_loss = 1.5833, validation_accuracy = 57.1076%
+epoch: 4 / 4, train_loss = 0.7618, train_accuracy = 72.0346%, validation_loss = 1.7262, validation_accuracy = 56.9306%
+Run 1 done
+...
+Training the model: Model training 2
+epoch: 1 / 4, train_loss = 1.3907, train_accuracy = 43.2430%, validation_loss = 1.6216, validation_accuracy = 52.8711%
+epoch: 2 / 4, train_loss = 0.8596, train_accuracy = 59.5329%, validation_loss = 1.5484, validation_accuracy = 56.6344%
+epoch: 3 / 4, train_loss = 0.9867, train_accuracy = 66.6340%, validation_loss = 1.5890, validation_accuracy = 57.1475%
+epoch: 4 / 4, train_loss = 1.3321, train_accuracy = 71.9432%, validation_loss = 1.6861, validation_accuracy = 56.7219%
+Run 2 done
+...
+Training the model: Model training 3
+epoch: 1 / 4, train_loss = 1.2612, train_accuracy = 43.1715%, validation_loss = 1.6362, validation_accuracy = 53.2260%
+epoch: 2 / 4, train_loss = 1.0477, train_accuracy = 59.6027%, validation_loss = 1.5908, validation_accuracy = 56.5560%
+epoch: 3 / 4, train_loss = 0.5173, train_accuracy = 66.7603%, validation_loss = 1.5867, validation_accuracy = 57.4680%
+epoch: 4 / 4, train_loss = 1.0924, train_accuracy = 72.1459%, validation_loss = 1.6501, validation_accuracy = 56.8164%
+Run 3 done
+Evaluation on our best model over 3 runs:
+==================================================================
+Validation accuracy: [56.93, 56.72, 56.82]
+Accuracy mean: 56.823%, with sd: 0.086
+------------------------------------------------------------------
+Validation recall: [0.45, 0.45, 0.45]
+Recall mean: 0.450, with sd: 0.000
+------------------------------------------------------------------
+Validation Precision: [0.46, 0.46, 0.46]
+Precision mean: 0.460, with sd: 0.000
+------------------------------------------------------------------
+Validation F1: [0.43, 0.43, 0.43]
+F1-macro mean: 0.430, with sd: 0.000
+Training and evaluating tor with 1 hidden layers:
+epoch: 1 / 4, train_loss = 1.4230, train_accuracy = 43.2763%, validation_loss = 1.6347, validation_accuracy = 52.9201%
+epoch: 2 / 4, train_loss = 1.2859, train_accuracy = 59.5628%, validation_loss = 1.5682, validation_accuracy = 56.3125%
+epoch: 3 / 4, train_loss = 1.0847, train_accuracy = 66.6955%, validation_loss = 1.5816, validation_accuracy = 56.8549%
+epoch: 4 / 4, train_loss = 0.9555, train_accuracy = 71.8517%, validation_loss = 1.6850, validation_accuracy = 56.8696%
+Training and evaluating tor with 2 hidden layers:
+epoch: 1 / 4, train_loss = 0.9300, train_accuracy = 43.9694%, validation_loss = 1.5885, validation_accuracy = 53.1290%
+epoch: 2 / 4, train_loss = 1.3403, train_accuracy = 58.9794%, validation_loss = 1.5510, validation_accuracy = 55.6276%
+epoch: 3 / 4, train_loss = 0.7642, train_accuracy = 65.4571%, validation_loss = 1.6504, validation_accuracy = 56.1116%
+epoch: 4 / 4, train_loss = 1.0332, train_accuracy = 70.2859%, validation_loss = 1.8719, validation_accuracy = 55.9413%
+Training and evaluating tor with 4 hidden layers:
+epoch: 1 / 4, train_loss = 1.9515, train_accuracy = 37.8823%, validation_loss = 1.8390, validation_accuracy = 45.7415%
+epoch: 2 / 4, train_loss = 1.5052, train_accuracy = 50.9724%, validation_loss = 1.6729, validation_accuracy = 50.8947%
+epoch: 3 / 4, train_loss = 0.8883, train_accuracy = 57.2523%, validation_loss = 1.6155, validation_accuracy = 53.4027%
+epoch: 4 / 4, train_loss = 1.2775, train_accuracy = 62.4352%, validation_loss = 1.5243, validation_accuracy = 54.6009%
+Training and evaluating tor with 8 hidden layers:
+epoch: 1 / 4, train_loss = 1.7323, train_accuracy = 32.1061%, validation_loss = 2.0478, validation_accuracy = 37.7628%
+epoch: 2 / 4, train_loss = 1.9328, train_accuracy = 42.4634%, validation_loss = 1.7856, validation_accuracy = 45.2977%
+epoch: 3 / 4, train_loss = 1.1744, train_accuracy = 49.9235%, validation_loss = 1.7324, validation_accuracy = 49.3059%
+epoch: 4 / 4, train_loss = 1.6218, train_accuracy = 54.8238%, validation_loss = 1.7920, validation_accuracy = 50.7645%
+Training and evaluating tor with 16 hidden layers:
+epoch: 1 / 4, train_loss = 2.0992, train_accuracy = 29.7257%, validation_loss = 2.2486, validation_accuracy = 36.4608%
+epoch: 2 / 4, train_loss = 2.1322, train_accuracy = 36.6622%, validation_loss = 2.2523, validation_accuracy = 36.5353%
+epoch: 3 / 4, train_loss = 1.9768, train_accuracy = 38.3677%, validation_loss = 2.1138, validation_accuracy = 38.1338%
+epoch: 4 / 4, train_loss = 1.3893, train_accuracy = 41.7620%, validation_loss = 1.9997, validation_accuracy = 40.9637%
